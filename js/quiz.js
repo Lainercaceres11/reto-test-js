@@ -49,6 +49,10 @@ var usuario;
 function inicio(){
     let txtusuario= document.getElementById('usuario');
     usuario = txtusuario.value;
+     if(usuario == ''){
+        alert("Por favor ingrese su nombre")
+        return false;
+    }
 
     var quest = document.getElementById("quest");
     quest.style.display = 'block';
