@@ -141,7 +141,7 @@ button:active{
 @media screen and (max-width:360px){
     #title{
         font-size: 1.1rem;
-        padding: 30px;
+        padding: 40px;
     }
 
     .img{
