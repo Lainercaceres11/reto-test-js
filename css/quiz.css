@@ -138,6 +138,20 @@ button:active{
 }
 
 
+@media screen and (max-width:360px){
+    #title{
+        font-size: 1.1rem;
+        padding: 30px;
+    }
+
+    .img{
+        height: 4.4rem;
+        width: 4.4rem;
+    }
+
+   
+}
+
 @media screen and (max-width:320px){
     #title{
         font-size: 1.1rem;
