@@ -137,30 +137,16 @@ button:active{
     text-align: center;
 }
 
-
 @media screen and (max-width:360px){
     #title{
         font-size: 1.1rem;
-        padding: 40px;
-    }
-
-    .img{
-        height: 3.4rem;
-        width: 3.4rem;
-    }
-
-   
-}
-
-@media screen and (max-width:320px){
-    #title{
-        font-size: 1.1rem;
-        padding: 30px;
+        padding: 50px;
     }
 
     .img{
         height: 4.4rem;
         width: 4.4rem;
+        border-radius: 50%;
     }
 
    
